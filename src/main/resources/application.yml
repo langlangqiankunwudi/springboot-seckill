@@ -10,11 +10,11 @@ spring:
       #监控统计拦截的filters
       filter: stat
       #mysql驱动
-      driver-class-name: com.mysql.jdbc.Driver
+      driver-class-name: com.mysql.cj.jdbc.Driver
       #基本属性
-      url: jdbc:mysql://127.0.0.1:3306/seckill?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&?zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
       username: root
-      password: root
+      password: wl13655583291
       #配置初始化大小/最小/最大
       initial-size: 1
       min-idle: 1
@@ -33,10 +33,10 @@ spring:
     cache: false
 
   #文件上传相关设置
-  servlet:
-    multipart:
-      max-file-size: 10Mb
-      max-request-size: 100Mb
+  #servlet:
+    #multipart:
+      #max-file-size: 10Mb
+      #max-request-size: 100Mb
 
   #devtools插件
   devtools:

@@ -32,7 +32,7 @@ h4 {
     line-height: 30px;
     font-weight: 700;
     color: #fff;
-    background: url(../../lib/font/icon/seckillbg.png) repeat-x;
+    background: url(../lib/font/icon/seckillbg.png) repeat-x;
 }
 
 .news span img {
